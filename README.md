@@ -22,11 +22,12 @@ In case of error *MODULE_NOT_FOUND* you can try to install dependence manually:
     package.json           - a file with description of the project, dependencies, etc.
     readme.md              - documentation
 
-# src
+# Source
 .html files should be at the root of the folder src (you can unite several html-files and import it in *index.html* file using *@@include('_name.html')*, secondary .html files names should start with "_")
+
     fonts     - fonts directory
     img       - here you should put all images of any format (.jpeg, .jpg, .svg, .png, .gif, .webp)
-    js        - javascript files
+    js        - javascript files (you can unite several js-files and import it in *script.html* file using *@@include('name.js'*))
     scss      - directory with all styles (you can unite several scss-files and import it in *style.html* file using *@import 'name'*)
 
 # Build
