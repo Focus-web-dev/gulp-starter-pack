@@ -1,2 +1,2 @@
-# gulp-starter-pack
-My default settings for gulp
+# Gulp starter pack
+Here's my [gulp](https://gulpjs.com/) configuration :)
