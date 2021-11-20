@@ -5,12 +5,15 @@ Here's my [gulp](https://gulpjs.com/) configuration :)
 For starting local servel on your PC you must install **[Node.js](https://nodejs.org/en/)** and **Node Package Manager** (intalling in parallel with Node.js)
 
 Use the following to install all dependencies:
+    
     npm install
 
 Starting local server:
+    
     gulp
 
 In case of error *MODULE_NOT_FOUND* you can try to install dependence manually:
+    
     npm install *there_module_name* --save-dev
 
 ## Documentation
